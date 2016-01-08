@@ -123,6 +123,7 @@ function doInsertHeading(level){
       documentAttributeManager.removeAttributeOnLine(i, 'heading');
     }
   });
+  tableOfContents.update();
 }
 
 
